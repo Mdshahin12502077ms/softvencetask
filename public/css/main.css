@@ -1,0 +1,72 @@
+body {
+    background-color: #111827;
+    color: #fff;
+    /* font-family: 'Inter', sans-serif; */
+    padding: 30px;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+ 
+  .btn {
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .btn-add {
+    background-color: #2563eb;
+    color: #fff;
+  }
+  .btn-remove {
+    background-color: #dc2626;
+    color: #fff;
+    float: right;
+  }
+  .btn-save {
+    background-color: #10b981;
+  }
+  .btn-cancel {
+    background-color: #ef4444;
+  }
+  .module, .content ,.course{
+    background-color: #1e293b;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    position: relative;
+  }
+  .section-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .collapse-toggle {
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    color: #60a5fa;
+  }
+  .module .content {
+    background-color: #202b3e;;
+  }
+
+  input, select, button, textarea {
+    background: #ffffff; 
+    color: #000000;     
+  }
+  input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 4px;
+    border: none;
+    background: #000000 !important; 
+    color: #ffffff !important;     
+}
+  
+label {
+    color: #9ca3af; 
+  }
